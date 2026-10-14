@@ -1,6 +1,6 @@
 {
  "schema": "lazyedge-bot.performance/v1",
- "generated_at": "2026-10-14T16:34:15.483568+00:00",
+ "generated_at": "2026-10-14T16:40:02.686544+00:00",
  "strategy": {
   "name": "LazyEdge PRICE_GAP -> Kalshi (NFL)",
   "venue": "Kalshi",
@@ -38,7 +38,7 @@
   "fees_usd": 0,
   "roi_on_stake_pct": null,
   "return_on_capital_pct": null,
-  "max_drawdown_pct": null,
+  "max_drawdown_pct": 0.0,
   "profit_factor": null,
   "avg_entry_price": null,
   "avg_clv_cents": null,
