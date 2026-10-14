@@ -1,0 +1,61 @@
+{
+ "schema": "lazyedge-bot.performance/v1",
+ "generated_at": "2026-10-14T16:34:15.483568+00:00",
+ "strategy": {
+  "name": "LazyEdge PRICE_GAP -> Kalshi (NFL)",
+  "venue": "Kalshi",
+  "asset_class": "Event contracts (sports)",
+  "markets": "NFL moneyline + main spread",
+  "stake_per_bet_usd": 1.0,
+  "rules": {
+   "label": [
+    "PRICE_GAP"
+   ],
+   "min_edge_after_fee_pp": 7.0,
+   "window_min_before_kickoff": [
+    5,
+    120
+   ],
+   "max_price_move": 0.05,
+   "max_per_game": 2,
+   "order_type": "limit at ask, immediate-or-cancel"
+  }
+ },
+ "status": "Active",
+ "capital": {
+  "basis": "returns are % of the account balance when the live bot started; dollar balance withheld"
+ },
+ "summary": {
+  "tracking_start": null,
+  "tracking_days": 0,
+  "betting_days": 0,
+  "bets_settled": 0,
+  "bets_open_published": 0,
+  "wins": 0,
+  "win_rate_pct": null,
+  "staked_usd": 0,
+  "pnl_usd": 0,
+  "fees_usd": 0,
+  "roi_on_stake_pct": null,
+  "return_on_capital_pct": null,
+  "max_drawdown_pct": null,
+  "profit_factor": null,
+  "avg_entry_price": null,
+  "avg_clv_cents": null,
+  "pnl_sources": {
+   "kalshi_settlement": 0,
+   "bot_ledger": 0
+  }
+ },
+ "daily": [],
+ "weekly": [],
+ "monthly": [],
+ "nfl_weeks": [],
+ "bets": [],
+ "verification": {
+  "exchange": "Kalshi",
+  "pnl_method": "Kalshi /portfolio/settlements: revenue - cost basis - fee_cost per market",
+  "reconcile_with": "kalshi_order_id on each bet (Kalshi fills/orders API with a read-only key)",
+  "open_positions_policy": "a bet appears only after its game has kicked off"
+ }
+}
