@@ -1,6 +1,6 @@
 {
  "schema": "lazyedge-bot.performance/v1",
- "generated_at": "2026-10-18T23:40:21.228411+00:00",
+ "generated_at": "2026-10-19T00:00:21.222589+00:00",
  "strategy": {
   "name": "LazyEdge PRICE_GAP -> Kalshi (NFL)",
   "venue": "Kalshi",
@@ -27,7 +27,7 @@
  },
  "summary": {
   "tracking_start": "2026-10-18",
-  "tracking_days": 1,
+  "tracking_days": 2,
   "betting_days": 1,
   "bets_settled": 2,
   "bets_open_published": 0,
