@@ -1,6 +1,6 @@
 {
  "schema": "lazyedge-bot.performance/v1",
- "generated_at": "2026-10-20T00:00:21.076650+00:00",
+ "generated_at": "2026-10-20T00:20:22.160050+00:00",
  "strategy": {
   "name": "LazyEdge PRICE_GAP -> Kalshi (NFL)",
   "venue": "Kalshi",
@@ -30,7 +30,7 @@
   "tracking_days": 3,
   "betting_days": 1,
   "bets_settled": 2,
-  "bets_open_published": 0,
+  "bets_open_published": 1,
   "wins": 2,
   "win_rate_pct": 100.0,
   "staked_usd": 1.57,
@@ -40,8 +40,8 @@
   "return_on_capital_pct": 2.68,
   "max_drawdown_pct": 0.0,
   "profit_factor": null,
-  "avg_entry_price": 0.52,
-  "avg_clv_cents": 0.5,
+  "avg_entry_price": 0.5067,
+  "avg_clv_cents": 0.0,
   "pnl_sources": {
    "kalshi_settlement": 2,
    "bot_ledger": 0
@@ -149,6 +149,32 @@
    "pnl": 1.005,
    "settled_at": "2026-10-18T23:33:21.827939Z",
    "pnl_source": "kalshi_settlement"
+  },
+  {
+   "id": "a48ea9b1-6299-4c45-baf6-342e2e20e0ca",
+   "kalshi_order_id": "01a15640-58a0-707f-a56c-49518a1ec925",
+   "placed_at": "2026-10-19T22:20:20.896533+00:00",
+   "game_id": "2026_06_WAS_SF",
+   "kickoff": "2026-10-20T00:15:00+00:00",
+   "game_day": "2026-10-19",
+   "nfl_week": "2026-wk06",
+   "market": "SPREAD",
+   "ticker": "KXNFLSPREAD-26OCT19WASSF-SF8",
+   "side": "YES",
+   "selection": "SF by 8.0+",
+   "contracts": 2.0,
+   "entry_price": 0.48,
+   "fees": 0.035,
+   "cost": 0.995,
+   "model_prob": 0.57,
+   "edge_pp_at_entry": 7.25,
+   "closing_price": 0.47,
+   "clv_cents": -1.0,
+   "status": "open",
+   "result": null,
+   "pnl": null,
+   "settled_at": null,
+   "pnl_source": null
   }
  ],
  "verification": {
