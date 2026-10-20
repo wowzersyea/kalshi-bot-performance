@@ -1,6 +1,6 @@
 {
  "schema": "lazyedge-bot.performance/v1",
- "generated_at": "2026-10-20T00:20:22.160050+00:00",
+ "generated_at": "2026-10-20T03:30:02.687808+00:00",
  "strategy": {
   "name": "LazyEdge PRICE_GAP -> Kalshi (NFL)",
   "venue": "Kalshi",
@@ -28,22 +28,22 @@
  "summary": {
   "tracking_start": "2026-10-18",
   "tracking_days": 3,
-  "betting_days": 1,
-  "bets_settled": 2,
-  "bets_open_published": 1,
+  "betting_days": 2,
+  "bets_settled": 3,
+  "bets_open_published": 0,
   "wins": 2,
-  "win_rate_pct": 100.0,
-  "staked_usd": 1.57,
-  "pnl_usd": 1.43,
-  "fees_usd": 0.05,
-  "roi_on_stake_pct": 90.8,
-  "return_on_capital_pct": 2.68,
-  "max_drawdown_pct": 0.0,
-  "profit_factor": null,
+  "win_rate_pct": 66.67,
+  "staked_usd": 2.57,
+  "pnl_usd": 0.43,
+  "fees_usd": 0.09,
+  "roi_on_stake_pct": 16.85,
+  "return_on_capital_pct": 0.81,
+  "max_drawdown_pct": -1.81,
+  "profit_factor": 1.435,
   "avg_entry_price": 0.5067,
   "avg_clv_cents": 0.0,
   "pnl_sources": {
-   "kalshi_settlement": 2,
+   "kalshi_settlement": 3,
    "bot_ledger": 0
   }
  },
@@ -59,6 +59,18 @@
    "return_on_capital_pct": 2.68,
    "cum_pnl": 1.43,
    "drawdown_pct": 0.0
+  },
+  {
+   "period": "2026-10-19",
+   "bets": 1,
+   "wins": 0,
+   "staked": 0.99,
+   "pnl": -0.99,
+   "fees": 0.04,
+   "roi_on_stake_pct": -100.0,
+   "return_on_capital_pct": -1.87,
+   "cum_pnl": 0.44,
+   "drawdown_pct": -1.81
   }
  ],
  "weekly": [
@@ -71,30 +83,40 @@
    "fees": 0.05,
    "roi_on_stake_pct": 90.8,
    "return_on_capital_pct": 2.68
+  },
+  {
+   "period": "2026-W43",
+   "bets": 1,
+   "wins": 0,
+   "staked": 0.99,
+   "pnl": -0.99,
+   "fees": 0.04,
+   "roi_on_stake_pct": -100.0,
+   "return_on_capital_pct": -1.87
   }
  ],
  "monthly": [
   {
    "period": "2026-10",
-   "bets": 2,
+   "bets": 3,
    "wins": 2,
-   "staked": 1.57,
-   "pnl": 1.43,
-   "fees": 0.05,
-   "roi_on_stake_pct": 90.8,
-   "return_on_capital_pct": 2.68
+   "staked": 2.57,
+   "pnl": 0.43,
+   "fees": 0.09,
+   "roi_on_stake_pct": 16.85,
+   "return_on_capital_pct": 0.81
   }
  ],
  "nfl_weeks": [
   {
    "period": "2026-wk06",
-   "bets": 2,
+   "bets": 3,
    "wins": 2,
-   "staked": 1.57,
-   "pnl": 1.43,
-   "fees": 0.05,
-   "roi_on_stake_pct": 90.8,
-   "return_on_capital_pct": 2.68
+   "staked": 2.57,
+   "pnl": 0.43,
+   "fees": 0.09,
+   "roi_on_stake_pct": 16.85,
+   "return_on_capital_pct": 0.81
   }
  ],
  "bets": [
@@ -170,11 +192,11 @@
    "edge_pp_at_entry": 7.25,
    "closing_price": 0.47,
    "clv_cents": -1.0,
-   "status": "open",
-   "result": null,
-   "pnl": null,
-   "settled_at": null,
-   "pnl_source": null
+   "status": "settled",
+   "result": "lost",
+   "pnl": -0.995,
+   "settled_at": "2026-10-20T03:27:34.585924Z",
+   "pnl_source": "kalshi_settlement"
   }
  ],
  "verification": {
