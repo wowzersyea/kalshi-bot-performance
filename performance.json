@@ -1,12 +1,12 @@
 {
  "schema": "lazyedge-bot.performance/v1",
- "generated_at": "2026-11-13T00:00:05.202448+00:00",
+ "generated_at": "2026-11-13T17:00:04.394897+00:00",
  "strategy": {
   "name": "LazyEdge PRICE_GAP -> Kalshi (NFL)",
   "venue": "Kalshi",
   "asset_class": "Event contracts (sports)",
   "markets": "NFL moneyline + main spread",
-  "stake_per_bet_usd": 1.0,
+  "stake_per_bet_usd": 2.0,
   "rules": {
    "label": [
     "PRICE_GAP"
